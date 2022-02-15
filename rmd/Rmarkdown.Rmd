@@ -1,0 +1,27 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Header 1
+
+### Header 4
+
+*Write some sample text here*
+
+1. apple
+1. banana
+1. kiwi
+
+#Generate a plot
+
+```{r}
+library(readr)
+bg_chem <- read.csv("../data/BGchem2008data.csv")
+plot(bg_chem$CTD_Depth, bg_chem$CTD_Temperature)
+```
+
