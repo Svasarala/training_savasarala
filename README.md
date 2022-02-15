@@ -6,4 +6,6 @@ Making a new README file
 
 Made more changes
 
-Just another change by Sumant
+
+Just another change by Amanda and Sumant at line 9
+
