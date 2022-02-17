@@ -11,3 +11,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 - [Data Tidying](rmd/Data-Tidying.html)
 - [Rmarkdown lesson](rmd/Rmarkdown.html)
+
+```{r, echo=FALSE}
+plot(iris$Sepal.Length, iris$Sepal.Width)
+```
+
